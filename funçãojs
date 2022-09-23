@@ -1,0 +1,27 @@
+1. uma função tradicional com a palavra reservada “Function” e sem nenhum parâmetro;
+
+function square(numero) {
+  return numero * numero;
+}
+---------------------------------------------------------------- 
+2. uma função tradicional com parâmetros e um retorno de valor
+function minhaFuncao(objeto) {
+   objeto.marca = "Toyota";
+   
+var meucarro = {
+marca: "Honda",
+
+ console.log(meucarro.marca);
+  minhaFuncao(meucarro);
+  
+ console.log(meucarro.marca);
+--------------------------------------------------------------- 
+3. uma arrow function com parâmetros e que retorne um valor
+
+let soma = (a, b) => {
+  return a + b;
+};
+console.log(soma(3, 3));
+
+
+
